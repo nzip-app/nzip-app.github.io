@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "🌐 Sito ufficiale e download / Official site and download"
+    url: https://nzip-app.github.io
+    about: "Scarica l'ultima versione prima di segnalare un problema. / Download the latest version before reporting a problem."
+  - name: "✉️ Supporto privato / Private support"
+    url: https://nzip-app.github.io/#faq
+    about: "Per questioni private (licenze, dati riservati) usa «Contatta il supporto» in fondo al sito. / For private matters (licenses, confidential data) use «Contact support» at the bottom of the site."

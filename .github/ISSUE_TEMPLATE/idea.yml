@@ -1,0 +1,26 @@
+name: "💡 Proponi un'idea / Suggest an idea"
+description: "Una funzione nuova o un miglioramento. / A new feature or an improvement."
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Puoi scrivere **in qualsiasi lingua**. / You can write **in any language**.
+  - type: textarea
+    id: idea
+    attributes:
+      label: "La tua idea / Your idea"
+      description: "Cosa vorresti che NZip facesse? / What would you like NZip to do?"
+    validations:
+      required: true
+  - type: textarea
+    id: perche
+    attributes:
+      label: "A cosa ti serve / Why do you need it"
+      description: "Un esempio concreto ci aiuta molto. / A concrete example helps a lot."
+  - type: input
+    id: versione
+    attributes:
+      label: "Versione di NZip e sistema / NZip version and system"
+      placeholder: "3.2.0, Windows 11"
