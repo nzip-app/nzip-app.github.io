@@ -1,0 +1,85 @@
+name: "🐞 Segnala un problema / Report a bug"
+description: "Qualcosa non funziona in NZip? Raccontacelo. / Something doesn't work in NZip? Tell us."
+title: "[Bug] "
+labels: ["bug", "da verificare"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per aiutarci a migliorare NZip! Puoi scrivere **in qualsiasi lingua**.
+        Thank you for helping us improve NZip! You can write **in any language**.
+
+        ⚠️ **Non allegare file privati o password.** Se il problema riguarda un archivio, allegane uno di prova che lo riproduce.
+        ⚠️ **Do not attach private files or passwords.** If the problem is about an archive, attach a test archive that reproduces it.
+  - type: input
+    id: versione
+    attributes:
+      label: "Versione di NZip / NZip version"
+      description: "Impostazioni → in alto, oppure `nzip` nel terminale. / Settings → at the top, or `nzip` in a terminal."
+      placeholder: "3.2.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: sistema
+    attributes:
+      label: "Sistema operativo / Operating system"
+      options:
+        - Windows 11
+        - Windows 10
+        - Windows ARM64
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Linux x64
+        - Linux ARM64
+        - "Altro / Other"
+    validations:
+      required: true
+  - type: dropdown
+    id: dove
+    attributes:
+      label: "Dove si presenta? / Where does it happen?"
+      multiple: true
+      options:
+        - "App NZip / NZip app"
+        - "Menu di Esplora file, Finder o del desktop Linux / Explorer, Finder or Linux desktop menu"
+        - "Riga di comando (nzip) / Command line (nzip)"
+        - "Installazione o aggiornamento / Installation or update"
+        - "Archivi di altri programmi (ZIP, RAR, 7z...) / Archives of other programs"
+        - "Sito web / Web site"
+        - "Altro / Other"
+  - type: textarea
+    id: passi
+    attributes:
+      label: "Cosa hai fatto / What did you do"
+      description: "I passi per riprodurre il problema. / Steps to reproduce the problem."
+      placeholder: |
+        1. Ho aperto... / I opened...
+        2. Ho scelto compressione massima... / I chose maximum compression...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: successo
+    attributes:
+      label: "Cosa è successo / What happened"
+      description: "Copia qui il messaggio di errore, se c'è. / Paste the error message here, if any."
+    validations:
+      required: true
+  - type: textarea
+    id: atteso
+    attributes:
+      label: "Cosa ti aspettavi / What did you expect"
+  - type: textarea
+    id: allegati
+    attributes:
+      label: "Screenshot, archivio di prova, altre informazioni / Screenshots, test archive, other information"
+      description: "Trascina qui immagini o file (.nzip o .zip piccoli). / Drag images or files here (small .nzip or .zip)."
+  - type: checkboxes
+    id: controlli
+    attributes:
+      label: "Prima di inviare / Before sending"
+      options:
+        - label: "Ho controllato che non esista già una segnalazione uguale. / I checked that the same report does not already exist."
+          required: true
+        - label: "Non ho allegato dati personali, password o file riservati. / I did not attach personal data, passwords or confidential files."
+          required: true

@@ -1,0 +1,536 @@
+{
+ "date": "2026-09-27",
+ "sets": [
+  {
+   "name": "Codice sorgente",
+   "bytes": 106198272,
+   "files": 4816,
+   "results": [
+    {
+     "key": "tar",
+     "label": "tar (nessuna compressione)",
+     "bytes": 110146560,
+     "compress_s": 0.4,
+     "extract_s": 2.0,
+     "identical": true
+    },
+    {
+     "key": "tgz",
+     "label": "tar.gz (gzip, massima)",
+     "bytes": 27940066,
+     "compress_s": 51.7,
+     "extract_s": 2.4,
+     "identical": true
+    },
+    {
+     "key": "tbz",
+     "label": "tar.bz2 (bzip2, massima)",
+     "bytes": 25227621,
+     "compress_s": 8.8,
+     "extract_s": 2.9,
+     "identical": true
+    },
+    {
+     "key": "txz",
+     "label": "tar.xz (xz, massima)",
+     "bytes": 22132064,
+     "compress_s": 24.7,
+     "extract_s": 2.7,
+     "identical": true
+    },
+    {
+     "key": "zip",
+     "label": "ZIP (Deflate, massima)",
+     "bytes": 30711619,
+     "compress_s": 7.4,
+     "extract_s": 4.5,
+     "identical": true
+    },
+    {
+     "key": "7z5",
+     "label": "7-Zip normale",
+     "bytes": 22665899,
+     "compress_s": 21.1,
+     "extract_s": 4.1,
+     "identical": true
+    },
+    {
+     "key": "7z9",
+     "label": "7-Zip ultra",
+     "bytes": 22039768,
+     "compress_s": 25.0,
+     "extract_s": 4.1,
+     "identical": true
+    },
+    {
+     "key": "rar",
+     "label": "RAR 7 (migliore, solido)",
+     "bytes": 24502349,
+     "compress_s": 5.3,
+     "extract_s": 2.9,
+     "identical": true
+    },
+    {
+     "key": "zst",
+     "label": "tar.zst (zstd -19, long)",
+     "bytes": 22789554,
+     "compress_s": 21.6,
+     "extract_s": 2.1,
+     "identical": true
+    },
+    {
+     "key": "nz1",
+     "label": "NZip veloce",
+     "bytes": 27054741,
+     "compress_s": 0.7,
+     "extract_s": 4.3,
+     "identical": true
+    },
+    {
+     "key": "nz2",
+     "label": "NZip normale",
+     "bytes": 21694290,
+     "compress_s": 22.7,
+     "extract_s": 5.0,
+     "identical": true
+    },
+    {
+     "key": "nz3",
+     "label": "NZip massima",
+     "bytes": 21256271,
+     "compress_s": 52.8,
+     "extract_s": 4.9,
+     "identical": true
+    },
+    {
+     "key": "nz4",
+     "label": "NZip ultra (Pro)",
+     "bytes": 21092872,
+     "compress_s": 80.5,
+     "extract_s": 14.5,
+     "identical": true
+    }
+   ]
+  },
+  {
+   "name": "Immagini",
+   "bytes": 154726789,
+   "files": 64,
+   "results": [
+    {
+     "key": "tar",
+     "label": "tar (nessuna compressione)",
+     "bytes": 154776576,
+     "compress_s": 0.2,
+     "extract_s": 0.1,
+     "identical": true
+    },
+    {
+     "key": "tgz",
+     "label": "tar.gz (gzip, massima)",
+     "bytes": 152794200,
+     "compress_s": 30.2,
+     "extract_s": 0.8,
+     "identical": true
+    },
+    {
+     "key": "tbz",
+     "label": "tar.bz2 (bzip2, massima)",
+     "bytes": 151098679,
+     "compress_s": 17.4,
+     "extract_s": 2.9,
+     "identical": true
+    },
+    {
+     "key": "txz",
+     "label": "tar.xz (xz, massima)",
+     "bytes": 152197300,
+     "compress_s": 8.2,
+     "extract_s": 1.8,
+     "identical": true
+    },
+    {
+     "key": "zip",
+     "label": "ZIP (Deflate, massima)",
+     "bytes": 152793775,
+     "compress_s": 5.1,
+     "extract_s": 0.8,
+     "identical": true
+    },
+    {
+     "key": "7z5",
+     "label": "7-Zip normale",
+     "bytes": 152197095,
+     "compress_s": 8.6,
+     "extract_s": 1.6,
+     "identical": true
+    },
+    {
+     "key": "7z9",
+     "label": "7-Zip ultra",
+     "bytes": 152189605,
+     "compress_s": 8.2,
+     "extract_s": 1.7,
+     "identical": true
+    },
+    {
+     "key": "rar",
+     "label": "RAR 7 (migliore, solido)",
+     "bytes": 152987310,
+     "compress_s": 4.4,
+     "extract_s": 0.5,
+     "identical": true
+    },
+    {
+     "key": "zst",
+     "label": "tar.zst (zstd -19, long)",
+     "bytes": 152170665,
+     "compress_s": 21.6,
+     "extract_s": 0.2,
+     "identical": true
+    },
+    {
+     "key": "nz1",
+     "label": "NZip veloce",
+     "bytes": 153780339,
+     "compress_s": 0.6,
+     "extract_s": 0.1,
+     "identical": true
+    },
+    {
+     "key": "nz2",
+     "label": "NZip normale",
+     "bytes": 120460260,
+     "compress_s": 11.5,
+     "extract_s": 3.2,
+     "identical": true
+    },
+    {
+     "key": "nz3",
+     "label": "NZip massima",
+     "bytes": 119786164,
+     "compress_s": 13.2,
+     "extract_s": 3.1,
+     "identical": true
+    },
+    {
+     "key": "nz4",
+     "label": "NZip ultra (Pro)",
+     "bytes": 119662692,
+     "compress_s": 24.3,
+     "extract_s": 3.2,
+     "identical": true
+    }
+   ]
+  },
+  {
+   "name": "Documenti",
+   "bytes": 758799412,
+   "files": 981,
+   "results": [
+    {
+     "key": "tar",
+     "label": "tar (nessuna compressione)",
+     "bytes": 759490560,
+     "compress_s": 0.7,
+     "extract_s": 0.8,
+     "identical": true
+    },
+    {
+     "key": "tgz",
+     "label": "tar.gz (gzip, massima)",
+     "bytes": 476303657,
+     "compress_s": 215.7,
+     "extract_s": 3.1,
+     "identical": true
+    },
+    {
+     "key": "tbz",
+     "label": "tar.bz2 (bzip2, massima)",
+     "bytes": 464449421,
+     "compress_s": 72.9,
+     "extract_s": 10.7,
+     "identical": true
+    },
+    {
+     "key": "txz",
+     "label": "tar.xz (xz, massima)",
+     "bytes": 437106512,
+     "compress_s": 40.3,
+     "extract_s": 3.6,
+     "identical": true
+    },
+    {
+     "key": "zip",
+     "label": "ZIP (Deflate, massima)",
+     "bytes": 476584668,
+     "compress_s": 50.7,
+     "extract_s": 2.9,
+     "identical": true
+    },
+    {
+     "key": "7z5",
+     "label": "7-Zip normale",
+     "bytes": 438409390,
+     "compress_s": 33.5,
+     "extract_s": 2.3,
+     "identical": true
+    },
+    {
+     "key": "7z9",
+     "label": "7-Zip ultra",
+     "bytes": 437295824,
+     "compress_s": 39.3,
+     "extract_s": 3.1,
+     "identical": true
+    },
+    {
+     "key": "rar",
+     "label": "RAR 7 (migliore, solido)",
+     "bytes": 452282111,
+     "compress_s": 22.8,
+     "extract_s": 2.4,
+     "identical": true
+    },
+    {
+     "key": "zst",
+     "label": "tar.zst (zstd -19, long)",
+     "bytes": 415833057,
+     "compress_s": 67.6,
+     "extract_s": 1.3,
+     "identical": true
+    },
+    {
+     "key": "nz1",
+     "label": "NZip veloce",
+     "bytes": 473554656,
+     "compress_s": 3.1,
+     "extract_s": 1.6,
+     "identical": true
+    },
+    {
+     "key": "nz2",
+     "label": "NZip normale",
+     "bytes": 344099054,
+     "compress_s": 105.6,
+     "extract_s": 22.1,
+     "identical": true
+    },
+    {
+     "key": "nz3",
+     "label": "NZip massima",
+     "bytes": 339893621,
+     "compress_s": 201.7,
+     "extract_s": 23.8,
+     "identical": true
+    },
+    {
+     "key": "nz4",
+     "label": "NZip ultra (Pro)",
+     "bytes": 339515336,
+     "compress_s": 272.9,
+     "extract_s": 24.7,
+     "identical": true
+    }
+   ]
+  },
+  {
+   "name": "Backup di sorgenti",
+   "bytes": 318506279,
+   "files": 14438,
+   "results": [
+    {
+     "key": "tar",
+     "label": "tar (nessuna compressione)",
+     "bytes": 330341888,
+     "compress_s": 1.2,
+     "extract_s": 5.8,
+     "identical": true
+    },
+    {
+     "key": "tgz",
+     "label": "tar.gz (gzip, massima)",
+     "bytes": 84051157,
+     "compress_s": 153.6,
+     "extract_s": 6.7,
+     "identical": true
+    },
+    {
+     "key": "tbz",
+     "label": "tar.bz2 (bzip2, massima)",
+     "bytes": 75933084,
+     "compress_s": 26.5,
+     "extract_s": 8.5,
+     "identical": true
+    },
+    {
+     "key": "txz",
+     "label": "tar.xz (xz, massima)",
+     "bytes": 35329856,
+     "compress_s": 75.9,
+     "extract_s": 6.5,
+     "identical": true
+    },
+    {
+     "key": "zip",
+     "label": "ZIP (Deflate, massima)",
+     "bytes": 92126596,
+     "compress_s": 18.4,
+     "extract_s": 10.6,
+     "identical": true
+    },
+    {
+     "key": "7z5",
+     "label": "7-Zip normale",
+     "bytes": 67942620,
+     "compress_s": 28.2,
+     "extract_s": 9.9,
+     "identical": true
+    },
+    {
+     "key": "7z9",
+     "label": "7-Zip ultra",
+     "bytes": 33700721,
+     "compress_s": 77.2,
+     "extract_s": 9.7,
+     "identical": true
+    },
+    {
+     "key": "rar",
+     "label": "RAR 7 (migliore, solido)",
+     "bytes": 27170166,
+     "compress_s": 11.2,
+     "extract_s": 8.3,
+     "identical": true
+    },
+    {
+     "key": "zst",
+     "label": "tar.zst (zstd -19, long)",
+     "bytes": 24010314,
+     "compress_s": 23.5,
+     "extract_s": 6.3,
+     "identical": true
+    },
+    {
+     "key": "nz1",
+     "label": "NZip veloce",
+     "bytes": 28157174,
+     "compress_s": 1.3,
+     "extract_s": 10.6,
+     "identical": true
+    },
+    {
+     "key": "nz2",
+     "label": "NZip normale",
+     "bytes": 22190606,
+     "compress_s": 26.3,
+     "extract_s": 12.1,
+     "identical": true
+    },
+    {
+     "key": "nz3",
+     "label": "NZip massima",
+     "bytes": 21652315,
+     "compress_s": 62.2,
+     "extract_s": 11.4,
+     "identical": true
+    },
+    {
+     "key": "nz4",
+     "label": "NZip ultra (Pro)",
+     "bytes": 21568806,
+     "compress_s": 78.2,
+     "extract_s": 11.3,
+     "identical": true
+    }
+   ]
+  }
+ ],
+ "tools": {
+  "nzip": "NZip 3.2.0 - archivi .nzip",
+  "7-zip": "7-Zip 26.02 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-06-25",
+  "rar": "RAR 7.13 x64   Copyright (c) 1993-2025 Alexander Roshal   28 Jul 2025",
+  "zstd": "Zstandard CLI (64-bit) v1.5.7, by Yann Collet",
+  "tar": "bsdtar 3.8.8 - libarchive 3.8.8 zlib/1.2.13.1-motley liblzma/5.8.1 bz2lib/1.0.8 libzstd/1.5.7 cng/2.0 libb2/bundled"
+ },
+ "commands": [
+  {
+   "key": "tar",
+   "label": "tar (nessuna compressione)",
+   "create": "tar -cf {A} -C {P} {N}",
+   "extract": "tar -xf {A} -C {D}"
+  },
+  {
+   "key": "tgz",
+   "label": "tar.gz (gzip, massima)",
+   "create": "tar -cf {T} -C {P} {N} && 7z a -tgzip -mx9 {A} {T}",
+   "extract": "7z x -o{D} {A} && tar -xf {D}\\a.tar -C {D}"
+  },
+  {
+   "key": "tbz",
+   "label": "tar.bz2 (bzip2, massima)",
+   "create": "tar -cf {T} -C {P} {N} && 7z a -tbzip2 -mx9 {A} {T}",
+   "extract": "7z x -o{D} {A} && tar -xf {D}\\a.tar -C {D}"
+  },
+  {
+   "key": "txz",
+   "label": "tar.xz (xz, massima)",
+   "create": "tar -cf {T} -C {P} {N} && 7z a -txz -mx9 {A} {T}",
+   "extract": "7z x -o{D} {A} && tar -xf {D}\\a.tar -C {D}"
+  },
+  {
+   "key": "zip",
+   "label": "ZIP (Deflate, massima)",
+   "create": "7z a -tzip -mx9 {A} {F}",
+   "extract": "7z x -o{D} {A}"
+  },
+  {
+   "key": "7z5",
+   "label": "7-Zip normale",
+   "create": "7z a -t7z -mx5 {A} {F}",
+   "extract": "7z x -o{D} {A}"
+  },
+  {
+   "key": "7z9",
+   "label": "7-Zip ultra",
+   "create": "7z a -t7z -mx9 {A} {F}",
+   "extract": "7z x -o{D} {A}"
+  },
+  {
+   "key": "rar",
+   "label": "RAR 7 (migliore, solido)",
+   "create": "rar a -r -m5 -ma5 -s -ep1 {A} {F}",
+   "extract": "rar x {A} {D}\\"
+  },
+  {
+   "key": "zst",
+   "label": "tar.zst (zstd -19, long)",
+   "create": "tar -cf - -C {P} {N} | zstd -19 --long=31 -T0 -o {A}",
+   "extract": "zstd -d -c --long=31 {A} | tar -xf - -C {D}"
+  },
+  {
+   "key": "nz1",
+   "label": "NZip veloce",
+   "create": "nzip a -m1 {A} {F}",
+   "extract": "nzip x {A} -o{D}"
+  },
+  {
+   "key": "nz2",
+   "label": "NZip normale",
+   "create": "nzip a -m2 {A} {F}",
+   "extract": "nzip x {A} -o{D}"
+  },
+  {
+   "key": "nz3",
+   "label": "NZip massima",
+   "create": "nzip a -m3 {A} {F}",
+   "extract": "nzip x {A} -o{D}"
+  },
+  {
+   "key": "nz4",
+   "label": "NZip ultra (Pro)",
+   "create": "nzip a -m4 {A} {F}",
+   "extract": "nzip x {A} -o{D}"
+  }
+ ]
+}
